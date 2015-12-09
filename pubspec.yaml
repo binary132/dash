@@ -1,0 +1,13 @@
+name: dash
+dependencies:
+  browser: ^0.10.0
+  polymer: ^1.0.0-rc.6
+  polymer_elements: ^1.0.0-rc.3
+  web_components: ^0.12.0
+  reflectable: ^0.3.3
+
+transformers:
+- web_components:
+    entry_points: web/index.html
+- reflectable:
+    entry_points: web/index.dart
